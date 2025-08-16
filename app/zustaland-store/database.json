@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@thothhr.com",
+      "password": "admin123"
+    }
+  ],
+  "members": [
+    {
+      "id": "m1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "position": "Software Engineer",
+      "department": "IT",
+      "phone": "0712345678",
+      "hireDate": "2025-01-15",
+      "status": "Active",
+      "profilePicture": ""
+    }
+  ],
+  "loans": [
+    {
+      "id": "l1",
+      "memberId": "m1",
+      "amount": 1000,
+      "date": "2025-08-14",
+      "interestRate": 1,
+      "repaymentTerm": "6 months",
+      "status": "Pending"
+    }
+  ],
+  "savings": [
+    {
+      "id": "s1",
+      "memberId": "m1",
+      "amount": 500,
+      "date": "2025-08-14"
+    }
+  ],
+  "payrolls": [
+    {
+      "id": "p1",
+      "memberId": "m1",
+      "salary": 1500,
+      "basic": 1200,
+      "allowances": 200,
+      "deductions": 50,
+      "netPay": 1450,
+      "month": "August",
+      "date": "2025-08-14",
+      "status": "Pending"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "memberId": "m1",
+      "description": "Salary Payment",
+      "type": "Credit",
+      "amount": 1450,
+      "date": "2025-08-14"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "c1",
+      "memberId": "m1",
+      "title": "Full-Time Contract",
+      "startDate": "2025-01-15",
+      "endDate": "2026-01-14",
+      "status": "Active"
+    }
+  ]
+}
